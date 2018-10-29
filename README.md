@@ -1,5 +1,5 @@
 # TestInRest
-Demo project for Autumn QC Meetup. Developed on java wiht the of Rest Assured lib.
+Demo project for Autumn QC Meetup. Developed on java with the help of Rest Assured lib.
 
 HOW TO RUN
 1. Clone repository and open project in your java IDE (I work in IDEA).
