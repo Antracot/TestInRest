@@ -12,15 +12,14 @@ HOW TO RUN
 
 Links for Demo:
 Postman:
-  * https://postman-echo.com/get?test=123
-    
-  * https://jsonplaceholder.typicode.com/photos
-  * https://jsonplaceholder.typicode.com/posts/1
-  * https://jsonplaceholder.typicode.com/comments
+  * https://postman-echo.com/get?test=123 - for test workable Postman
+  * https://jsonplaceholder.typicode.com/photos - full json with all photos 
+  * https://jsonplaceholder.typicode.com/comments/1 - just first post
+  * https://jsonplaceholder.typicode.com/posts?userId=1 - just 10 post where userId=1 
 
 
-
-
+Browser Console:
+(open console in browser and paste inside)
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(json => console.log(json))
