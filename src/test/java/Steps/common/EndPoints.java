@@ -2,7 +2,7 @@ package Steps.common;
 
 public interface EndPoints {
 
-    String BASE_URl = "http://services.groupkt.com";
+    String BASE_URl = "http://groupkt.com";
     String GET_COUNTRY_SEARCH = "/country/get/";
     String GET_STATE = "/state/get";
     String ISO_CODE = "iso2code/";
